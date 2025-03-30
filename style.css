@@ -17,3 +17,84 @@ h1 {
     font-size: 28px;
     color: white;
 }
+
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    background-color: #1E88E5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #1565C0; }
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #4CAF50; 
+    border-radius: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #388E3C;
+}
+
+#drug-info {
+    text-align: left;
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#saved-list {
+    list-style: none; 
+    padding: 0;
+}
+
+#saved-list li {
+    background: #1E88E5; 
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    section {
+        max-width: 90%;
+    }
+}
